@@ -98,6 +98,11 @@ button{
     font-size: 12px;
    margin-top: 20px;
    box-shadow: 5px 5px 5px rgb(10, 59, 79),-5px -5px 5px rgb(14, 89, 118);
+   transition: transform 0.3s ease;
+
+}
+button:hover{
+    transform: scale(1.2);
 
 }
 /* ------------------------section end-------- */
@@ -168,10 +173,55 @@ button{
     width: 200px;
     gap: 10px;
     margin: 5px;
-    transition: 8s all;
+    transition: transform .3s ease;
 }
 .project>img:hover{
-    transform: scaleY(1.0);
+    transform: scale(1.1);
 
 }
 /* -------------------footer section start----- */
+footer{
+    width: 100%;
+}
+.contact{
+    display: flex;
+    background-color:#383b43 ;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.div1>p,.div2>p{
+    font-size: 10px;
+    margin: 8px;
+    color: wheat;
+}
+.div1>p:hover{
+    color: coral;
+}
+h2{
+    text-transform:capitalize;
+    border-bottom: 4px solid rgb(108, 87, 33);
+    border-radius: 4px;
+}
+.div2>p{
+    font-size: 8px;
+}
+.div2>p:hover{
+    color: coral;
+}
+.div3>h2{
+    margin-bottom: 20px;
+}
+.div3>i{
+    margin: 10px;
+    font-size: 20px;
+    color: skyblue;
+    box-shadow: 5px 5px 5px black,-5px -5px 5px black;
+    border-radius: 50%;
+    border: none;
+}
+.div3>i:hover{
+    font-size: 25px;
+}
