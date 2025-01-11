@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -66,7 +67,7 @@ nav{
 }
 .right-side >img{
     border: 1px solid skyblue;
-    border-radius: 30px;
+    border-radius: 50%;
     background-color: black;
     margin-top: 50px;
     margin-right: 10px;
@@ -100,3 +101,49 @@ button{
 
 }
 /* ------------------------section end-------- */
+.services{
+    width: 100%;
+}
+.about-section{
+    padding: 30px;
+    margin: 30px;
+    background-color:#212e3a ;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 10px 10px 15px black, -10px -10px 15px black;
+}
+.left >img{
+    padding: 15px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px skyblue,-5px -5px 10px skyblue;
+
+}
+.right{
+    margin-top: 30px;
+    padding: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.right>.title{
+    color: #f90c4b;
+    font-size: 40px;
+    text-shadow: -5px -5px 5px #7b0b29, 5px 5px 5px #800828 ;
+}
+.paragraph{
+    color: silver;
+    font-size: 9px;
+    font-family: "Montserrat", serif;
+}
+.right>span{
+    color: skyblue;
+   font-size: 10px;
+   padding-bottom: 10px;
+}
+.btn{
+    border: none;
+    outline: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding: 15px 25px;
+}
