@@ -87,6 +87,13 @@ nav{
 .para2>span{
     color: wheat;
 }
+.icon i{
+    margin-left: 25px;
+    background-color: skyblue;
+    padding: 5px;
+    border-radius: 30px;
+   
+}
 button{
     padding:  5px 15px;
     margin-left: 50px;
@@ -224,4 +231,40 @@ h2{
 }
 .div3>i:hover{
     font-size: 25px;
+}
+@media only screen and (max-width:600px) {
+    .nav-logo{
+        display: none;
+
+    }
+    .nav-link ul li a{
+       
+        flex-direction: column;
+    }
+    .section1{
+        flex-direction: column;
+        margin: 4px;
+    }
+    .section1 img{
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 20px;
+    }
+    .about-section{
+        flex-direction: column;
+    }
+    .title1{
+        text-align: center;
+        margin-left: 50px;
+    }
+    .project img{
+        width: 80%;
+    }
+    .contact{
+        flex-direction: column;
+        text-align: center;
+    }
+    
 }
